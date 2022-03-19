@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-19T14:30:13.585Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36 OPR/84.0.4316.36" etag="UgMdFKjEC0cPl07FPuWO" version="17.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-19T14:31:05.534Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36 OPR/84.0.4316.36" etag="8S6hPbXZludZ_Z--J-KX" version="17.1.3" type="github">
   <diagram id="l__uzmN-KbyxYH-vna3V" name="Page-1">
     <mxGraphModel dx="997" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -168,8 +168,7 @@
             <mxPoint x="1030" y="1070" as="targetPoint" />
             <mxPoint x="1020" y="890" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="829" y="1000" />
-              <mxPoint x="1021" y="1000" />
+              <mxPoint x="1021" y="920" />
               <mxPoint x="1021" y="660" />
               <mxPoint x="570" y="660" />
             </Array>
@@ -177,7 +176,7 @@
         </mxCell>
         <mxCell id="rZ9DcUlKOYbbPULosYoJ-57" value="upraviť" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rZ9DcUlKOYbbPULosYoJ-55">
           <mxGeometry x="-0.6805" y="-2" relative="1" as="geometry">
-            <mxPoint x="-28" y="-12" as="offset" />
+            <mxPoint x="-63" y="24" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
