@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-19T14:31:05.534Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36 OPR/84.0.4316.36" etag="8S6hPbXZludZ_Z--J-KX" version="17.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-19T14:32:22.687Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36 OPR/84.0.4316.36" etag="kdYIpgs-HTNE1_nDy_xZ" version="17.1.3" type="github">
   <diagram id="l__uzmN-KbyxYH-vna3V" name="Page-1">
     <mxGraphModel dx="997" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -143,7 +143,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="rZ9DcUlKOYbbPULosYoJ-49" value="odstrániť z DB" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rZ9DcUlKOYbbPULosYoJ-46">
+        <mxCell id="rZ9DcUlKOYbbPULosYoJ-49" value="po nejakom čase &lt;br&gt;odstrániť z DB" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rZ9DcUlKOYbbPULosYoJ-46">
           <mxGeometry x="-0.183" y="-4" relative="1" as="geometry">
             <mxPoint x="39" y="-19" as="offset" />
           </mxGeometry>
