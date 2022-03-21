@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-21T14:45:42.633Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36 OPR/84.0.4316.43" etag="Q6h8T9qjL-7MZOHoEeg9" version="17.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-21T14:47:18.111Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36 OPR/84.0.4316.43" etag="JvLMn6ZVeoosoUP3KEb6" version="17.1.3" type="github">
   <diagram id="l__uzmN-KbyxYH-vna3V" name="Page-1">
     <mxGraphModel dx="997" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -128,26 +128,43 @@
             <mxPoint x="-63" y="24" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="H3dLwZIj7byjlwtAPl-R-2" value="Zákazník" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="170" y="120" width="20" height="300" as="geometry" />
+        <mxCell id="H3dLwZIj7byjlwtAPl-R-8" value="Zákazník" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="140" width="20" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="H3dLwZIj7byjlwtAPl-R-3" value="Taxikár" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="620" y="120" width="20" height="300" as="geometry" />
+        <mxCell id="H3dLwZIj7byjlwtAPl-R-9" value=":Platobná brána" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="314" y="140" width="100" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="H3dLwZIj7byjlwtAPl-R-4" value=":Objednávka" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="350" y="120" width="100" height="300" as="geometry" />
+        <mxCell id="H3dLwZIj7byjlwtAPl-R-10" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="H3dLwZIj7byjlwtAPl-R-9">
+          <mxGeometry x="45" y="90" width="10" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="H3dLwZIj7byjlwtAPl-R-5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="H3dLwZIj7byjlwtAPl-R-4">
-          <mxGeometry x="46" y="100" width="10" height="60" as="geometry" />
+        <mxCell id="H3dLwZIj7byjlwtAPl-R-11" value=":Banka" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="140" width="100" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="H3dLwZIj7byjlwtAPl-R-6" value="callback" style="html=1;verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;rounded=0;" edge="1" target="H3dLwZIj7byjlwtAPl-R-5" parent="1" source="H3dLwZIj7byjlwtAPl-R-2">
+        <mxCell id="H3dLwZIj7byjlwtAPl-R-12" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="H3dLwZIj7byjlwtAPl-R-11">
+          <mxGeometry x="45" y="105" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H3dLwZIj7byjlwtAPl-R-13" value="Taxikár" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="140" width="20" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="H3dLwZIj7byjlwtAPl-R-14" value="zaplatiť" style="html=1;verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;rounded=0;" edge="1" parent="1" source="H3dLwZIj7byjlwtAPl-R-8" target="H3dLwZIj7byjlwtAPl-R-10">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="466" y="220" as="sourcePoint" />
+            <mxPoint x="520" y="260" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="H3dLwZIj7byjlwtAPl-R-7" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=1;exitY=0.95;rounded=0;" edge="1" source="H3dLwZIj7byjlwtAPl-R-5" parent="1" target="H3dLwZIj7byjlwtAPl-R-2">
+        <mxCell id="H3dLwZIj7byjlwtAPl-R-15" value="peniaze ztrhnuté" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=1;exitY=0.95;rounded=0;" edge="1" parent="1" source="H3dLwZIj7byjlwtAPl-R-10" target="H3dLwZIj7byjlwtAPl-R-8">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="466" y="277" as="targetPoint" />
+            <mxPoint x="520" y="317" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H3dLwZIj7byjlwtAPl-R-16" value="peniaze odoslané" style="html=1;verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;rounded=0;" edge="1" parent="1" source="H3dLwZIj7byjlwtAPl-R-10" target="H3dLwZIj7byjlwtAPl-R-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="445.5" y="230" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H3dLwZIj7byjlwtAPl-R-17" value="peniaze poslané" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1" source="H3dLwZIj7byjlwtAPl-R-12" target="H3dLwZIj7byjlwtAPl-R-13">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="710" y="240" as="sourcePoint" />
+            <mxPoint x="810" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
