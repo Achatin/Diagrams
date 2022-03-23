@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-23T12:26:45.125Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36 OPR/84.0.4316.43" etag="N8t0B9EF_gFp3ROYS1lK" version="17.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-23T12:31:02.325Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36 OPR/84.0.4316.43" etag="yTHCaA4yJGyE0iPaFfhx" version="17.1.5" type="github">
   <diagram id="l__uzmN-KbyxYH-vna3V" name="Page-1">
     <mxGraphModel dx="831" dy="483" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -325,7 +325,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="aid70FiX0L2kB-3gZeqK-20" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="350" width="330" height="85" as="geometry" />
+          <mxGeometry x="340" y="365" width="330" height="85" as="geometry" />
         </mxCell>
         <mxCell id="aid70FiX0L2kB-3gZeqK-21" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
           <mxGeometry x="100" y="190" width="10" height="80" as="geometry" />
@@ -341,14 +341,18 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="aid70FiX0L2kB-3gZeqK-31" value="[zamietnutá]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="380" y="399.99999999999994" as="geometry" />
+          <mxGeometry x="380" y="399.99999999999994" as="geometry">
+            <mxPoint x="-1" y="19" as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="aid70FiX0L2kB-3gZeqK-33" value="nájsť nového taxikára" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1" source="aid70FiX0L2kB-3gZeqK-15" target="aid70FiX0L2kB-3gZeqK-17">
+        <mxCell id="aid70FiX0L2kB-3gZeqK-33" value="nájsť nového taxikára" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="100.00000000000011" y="380" as="targetPoint" />
-            <mxPoint x="160.0000000000001" y="380" as="sourcePoint" />
+            <mxPoint x="645" y="388" as="targetPoint" />
+            <mxPoint x="427" y="388" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="470" y="370" />
+              <mxPoint x="470" y="388" />
+              <mxPoint x="500" y="388" />
+              <mxPoint x="530" y="388" />
             </Array>
           </mxGeometry>
         </mxCell>
