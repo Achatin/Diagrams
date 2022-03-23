@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-23T18:57:49.262Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36 OPR/84.0.4316.43" etag="MghFgox2KolJ3S5uprpB" version="17.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-23T19:08:13.853Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36 OPR/84.0.4316.43" etag="zQa9JokY-6e8JqzBSjVs" version="17.1.5" type="github">
   <diagram id="l__uzmN-KbyxYH-vna3V" name="Page-1">
     <mxGraphModel dx="997" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -131,11 +131,17 @@
         <mxCell id="H3dLwZIj7byjlwtAPl-R-8" value="Zákazník" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="210" y="140" width="20" height="300" as="geometry" />
         </mxCell>
+        <mxCell id="V6OA_pnsu4edvQ1veiN3-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="H3dLwZIj7byjlwtAPl-R-8">
+          <mxGeometry x="5" y="120" width="10" height="70" as="geometry" />
+        </mxCell>
         <mxCell id="H3dLwZIj7byjlwtAPl-R-9" value=":Objednávkový systém" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="370" y="140" width="100" height="300" as="geometry" />
         </mxCell>
         <mxCell id="aid70FiX0L2kB-3gZeqK-15" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="H3dLwZIj7byjlwtAPl-R-9" vertex="1">
-          <mxGeometry x="45" y="120" width="10" height="130" as="geometry" />
+          <mxGeometry x="45" y="120" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="V6OA_pnsu4edvQ1veiN3-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="H3dLwZIj7byjlwtAPl-R-9">
+          <mxGeometry x="45" y="180" width="10" height="70" as="geometry" />
         </mxCell>
         <mxCell id="H3dLwZIj7byjlwtAPl-R-13" value="Taxikár" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="640" y="140" width="20" height="300" as="geometry" />
@@ -149,7 +155,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="aid70FiX0L2kB-3gZeqK-17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="H3dLwZIj7byjlwtAPl-R-13" vertex="1">
-          <mxGeometry x="5" y="180" width="10" height="80" as="geometry" />
+          <mxGeometry x="5" y="120" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="H3dLwZIj7byjlwtAPl-R-18" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" parent="1" vertex="1">
           <mxGeometry x="1380" y="640" width="30" height="30" as="geometry" />
@@ -304,14 +310,15 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="aid70FiX0L2kB-3gZeqK-18" value="upozornenie na objednávku" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;" parent="1" source="aid70FiX0L2kB-3gZeqK-15" target="H3dLwZIj7byjlwtAPl-R-13" edge="1">
+        <mxCell id="aid70FiX0L2kB-3gZeqK-18" value="upozornenie na objednávku" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;" parent="1" edge="1">
           <mxGeometry x="-0.5991" y="10" relative="1" as="geometry">
-            <mxPoint x="419.9966666666668" y="255" as="sourcePoint" />
+            <mxPoint x="423" y="260" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="590" y="260" />
-              <mxPoint x="590" y="260" />
+              <mxPoint x="588" y="260" />
+              <mxPoint x="588" y="260" />
             </Array>
             <mxPoint as="offset" />
+            <mxPoint x="647.5" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="aid70FiX0L2kB-3gZeqK-20" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -346,22 +353,12 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="aid70FiX0L2kB-3gZeqK-35" value="rozhodnutie o objednávke" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" parent="1" source="aid70FiX0L2kB-3gZeqK-17" target="aid70FiX0L2kB-3gZeqK-15" edge="1">
-          <mxGeometry x="-0.0367" relative="1" as="geometry">
-            <mxPoint x="710.0000000000001" y="310" as="sourcePoint" />
-            <mxPoint x="770.0000000000001" y="310.0000000000001" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="540" y="320" />
-            </Array>
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="aid70FiX0L2kB-3gZeqK-36" value="spätná väzba" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" parent="1" source="aid70FiX0L2kB-3gZeqK-15" target="H3dLwZIj7byjlwtAPl-R-8" edge="1">
+        <mxCell id="aid70FiX0L2kB-3gZeqK-36" value="spätná väzba" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="448" y="300" as="targetPoint" />
-            <mxPoint x="230" y="300" as="sourcePoint" />
+            <mxPoint x="226.5" y="320" as="targetPoint" />
+            <mxPoint x="419.5" y="320" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="273" y="300" />
+              <mxPoint x="280" y="320" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -374,6 +371,16 @@
             </Array>
             <mxPoint x="1" as="offset" />
             <mxPoint x="659.5" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V6OA_pnsu4edvQ1veiN3-5" value="rozhodnutie o objednávke" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0455" relative="1" as="geometry">
+            <mxPoint x="425" y="339" as="targetPoint" />
+            <mxPoint x="645" y="339" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="500" y="339" />
+            </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
