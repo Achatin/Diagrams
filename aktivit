@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-23T11:37:10.595Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36 OPR/84.0.4316.43" etag="BrcknMv60tlsCUY7ahHb" version="17.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-23T11:50:04.231Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36 OPR/84.0.4316.43" etag="KqmDXwmJTBZTk7m6NO1o" version="17.1.5" type="github">
   <diagram id="l__uzmN-KbyxYH-vna3V" name="Page-1">
-    <mxGraphModel dx="997" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="831" dy="483" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -260,6 +260,52 @@
           <mxGeometry x="-0.7432" y="1" relative="1" as="geometry">
             <mxPoint x="-31" y="38" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="aid70FiX0L2kB-3gZeqK-1" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="1105" y="62" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aid70FiX0L2kB-3gZeqK-2" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="aid70FiX0L2kB-3gZeqK-1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1120" y="152" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aid70FiX0L2kB-3gZeqK-3" value="Nastaviť lokáciu" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="150" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aid70FiX0L2kB-3gZeqK-4" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="aid70FiX0L2kB-3gZeqK-3" parent="1" target="aid70FiX0L2kB-3gZeqK-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1040" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1120" y="240" />
+              <mxPoint x="1145" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aid70FiX0L2kB-3gZeqK-7" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="240" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="aid70FiX0L2kB-3gZeqK-8" value="[manuálne (na mape)]" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="aid70FiX0L2kB-3gZeqK-7" parent="1" target="aid70FiX0L2kB-3gZeqK-10">
+          <mxGeometry x="-0.9474" y="5" relative="1" as="geometry">
+            <mxPoint x="1280" y="410" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1270" y="275" />
+              <mxPoint x="1270" y="415" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aid70FiX0L2kB-3gZeqK-9" value="[automaticky (GPS)]" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="aid70FiX0L2kB-3gZeqK-7" parent="1" target="aid70FiX0L2kB-3gZeqK-10">
+          <mxGeometry x="-0.4118" y="-27" relative="1" as="geometry">
+            <mxPoint x="990" y="275" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="980" y="275" />
+              <mxPoint x="980" y="415" />
+            </Array>
+            <mxPoint x="17" y="-25" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aid70FiX0L2kB-3gZeqK-10" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="380" width="80" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
