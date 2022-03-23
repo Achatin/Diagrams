@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-23T12:07:58.668Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36 OPR/84.0.4316.43" etag="Jw9zkSh--nwb5l90yAmB" version="17.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-23T12:12:54.877Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36 OPR/84.0.4316.43" etag="tbruoDl9hGmgaRZwdCC5" version="17.1.5" type="github">
   <diagram id="l__uzmN-KbyxYH-vna3V" name="Page-1">
     <mxGraphModel dx="831" dy="483" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -130,6 +130,9 @@
         </mxCell>
         <mxCell id="H3dLwZIj7byjlwtAPl-R-8" value="Zákazník" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="210" y="140" width="20" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="aid70FiX0L2kB-3gZeqK-29" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="H3dLwZIj7byjlwtAPl-R-8">
+          <mxGeometry x="5" y="150" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="H3dLwZIj7byjlwtAPl-R-9" value=":Objednávkový systém" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="370" y="140" width="100" height="300" as="geometry" />
@@ -325,7 +328,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="aid70FiX0L2kB-3gZeqK-20" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="150" y="300" width="540" height="140" as="geometry" />
+          <mxGeometry x="150" y="345" width="540" height="85" as="geometry" />
         </mxCell>
         <mxCell id="aid70FiX0L2kB-3gZeqK-21" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
           <mxGeometry x="100" y="190" width="10" height="80" as="geometry" />
@@ -346,19 +349,18 @@
             <mxPoint x="620.0000000000001" y="340" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aid70FiX0L2kB-3gZeqK-25" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=1.004;entryY=0.496;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.001;exitY=0.496;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="aid70FiX0L2kB-3gZeqK-20" target="aid70FiX0L2kB-3gZeqK-20">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="110" y="330" as="sourcePoint" />
-            <mxPoint x="480" y="270" as="targetPoint" />
+        <mxCell id="aid70FiX0L2kB-3gZeqK-30" value="poslať spätnú väzbu" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="aid70FiX0L2kB-3gZeqK-29" parent="1" source="aid70FiX0L2kB-3gZeqK-15">
+          <mxGeometry x="0.4271" y="-10" relative="1" as="geometry">
+            <mxPoint x="370" y="270" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="310" y="290" />
+              <mxPoint x="310" y="290" />
+            </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aid70FiX0L2kB-3gZeqK-27" value="[potvrdená]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="aid70FiX0L2kB-3gZeqK-25">
-          <mxGeometry x="-0.8991" y="3" relative="1" as="geometry">
-            <mxPoint x="13" y="-6" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="aid70FiX0L2kB-3gZeqK-28" value="[zamietnutá]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="180.00000000000003" y="399.99999999999994" as="geometry" />
+        <mxCell id="aid70FiX0L2kB-3gZeqK-31" value="[zamietnutá]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="190.00000000000003" y="399.99999999999994" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
